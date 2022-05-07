@@ -34,6 +34,13 @@
 </ul>
 <p>That’s it, hope everything goes well!</p>
 ]]></content>
+      <categories>
+        <category>Front-end</category>
+      </categories>
+      <tags>
+        <tag>ExtJS</tag>
+        <tag>Front-end</tag>
+      </tags>
   </entry>
   <entry>
     <title>为什么不用 ExtJS 呢？</title>
