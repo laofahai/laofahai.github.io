@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ExtJS getting started</title>
+    <url>/posts/64000/</url>
+    <content><![CDATA[<h1 id="ExtJS"><a href="#ExtJS" class="headerlink" title="ExtJS"></a>ExtJS</h1><p>As you can see, I will build the front-end application via <code>ExtJS</code>, so first of all is make ExtJS works on your environment. In this post, we trying use <code>Sencha Cmd</code> to build our front-end project.</p>
+<p>That is a list for all of you need:</p>
+<ul>
+<li>A computer with any OS</li>
+<li>Java Runtime Environment</li>
+<li>An editor you can code on it, like <a href="https://code.visualstudio.com/">VSCode</a>, Eclipse(<a href="https://www.eclipse.org/">https://www.eclipse.org</a><br>), or <a href="https://www.jetbrains.com/">IntelliJ products</a>, and any editor you like.</li>
+<li>A ExtJS-CE SDK. <a href="http://localhost:4000/posts/43324/#Related-resources">You could follow this</a></li>
+<li><a href="https://www.sencha.com/products/extjs/cmd-download/">Sencha Cmd</a></li>
+</ul>
+<span id="more"></span>
+
+<h2 id="Sencha-Cmd"><a href="#Sencha-Cmd" class="headerlink" title="Sencha Cmd"></a>Sencha Cmd</h2><p>First step, you need follow the link above to download and install <code>Sencha Cmd</code> on your computer, and make sure the <code>sencha</code> command has been configured in your environment. Use this command to check if it works:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="ExtJS-SDK"><a href="#ExtJS-SDK" class="headerlink" title="ExtJS SDK"></a>ExtJS SDK</h2><p>Step 2, download the <code>ExtJS SDK</code> via the link above, unzip it and put it in any place you could find it. after that, follow the command below like:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha -sdk /path/to/your/extjs/sdk generate app [-classic/modern] [appName] /path/to/your/app</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<blockquote><ul>
+<li>-classic &#x2F; -modern: ExtJS has two toolkits named <code>classic</code> and <code>modern</code>, the classic one is using for desktop application, and the modern one is for modern mobile app.</li>
+<li><code>/path/to/your/app</code> also can be given like <code>./yourApp</code> in relative path style.</li>
+</ul>
+</blockquote>
+
+<p>Now, your workspace may seems like:</p>
+<blockquote><p>|app<br>|—-desktop<br>|—-shared<br>|build<br>|generatedFiels<br>|packages<br>|resources<br>|app.js<br>|app.json<br>|build.xml<br>|index.html<br>|index.js<br>|…</p>
+</blockquote>
+
+<h2 id="Start-your-first-ExtJS-application"><a href="#Start-your-first-ExtJS-application" class="headerlink" title="Start your first ExtJS application"></a>Start your first ExtJS application</h2><p>if that command works, you will find the generated sources in <code>./yourApp</code> directory, so come on in and start the application like:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> yourApp</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha app watch</span></span><br></pre></td></tr></table></figure>
+
+<p>after that, open your browser and go to the URL: <code>http://localhost:1841</code>, you’ll see that your first ExtJS application worked!</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Front-end</category>
+      </categories>
+      <tags>
+        <tag>ExtJS</tag>
+        <tag>Front-end</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>The build course of Crow Starter - (1</title>
+    <url>/posts/59226/</url>
+    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>Hello everyone, I’m trying to build a collection of scaffolds to help people build their application quickly, it’s based on <code>SpringBoot</code> for backend and <code>ExtJS</code> now for frontend, I’d love to named it <code>Crow Starter</code> because I like Mr.Crow in CubeEscape very much, I hope this post is a good beginning for <code>CrowStarter</code> and maybe it could help the guys who want to use this technology stack to build their own application.</p>
+<p>This project will being hosted on <a href="https://github.com/laofahai/crow-starter">Github</a> and <a href="https://gitee.com/laofahai/crow-starter">Gitee</a> for Chinese developers, and it’s under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL license v3.0</a> because of the ExtJS community edition did.</p>
+<p>Actually this scaffold is not only contains a SprintBoot starter you can simply include it in your <code>pom.xml</code>, so you need follow my documents and make it works.</p>
+<span id="more"></span>
+
+<h1 id="Scaffolds"><a href="#Scaffolds" class="headerlink" title="Scaffolds"></a>Scaffolds</h1><p>The <code>Crow Starter</code> project will contain many of scaffolds like below:</p>
+<h2 id="CrowRest"><a href="#CrowRest" class="headerlink" title="CrowRest"></a>CrowRest</h2><p><a href="https://github.com/laofahai/crow-rest-spring-boot-starter">crow-rest-spring-boot-starter</a> is a quick-starter based on SpringBoot to handle common CRUD operations via RESTful API, it’s easily integrated into your project especially new one, it’s built a new realization via abstract the common operations in web development. so you can:</p>
+<ul>
+<li>Build a full-functionally module with almost no codes need to write</li>
+<li>It’s easily to extend and override the default handlers</li>
+<li>Provide a service for all data struct from defined entities, so you can build the front-end application based on it in the same programming style of Crow-Rest</li>
+<li>and-more…</li>
+</ul>
+<p>And this crow-rest starter is now provide 0.0.1 version for release, follow <a href="https://github.com/laofahai/crow-rest-spring-boot-starter">https://github.com/laofahai/crow-rest-spring-boot-starter</a> to getting started.</p>
+<h2 id="CrowRBAC"><a href="#CrowRBAC" class="headerlink" title="CrowRBAC"></a>CrowRBAC</h2><p><a href="https://github.com/laofahai/crow-rbac-spring-boot-starter">crow-rbac-spring-boot-starter</a> is a RBAC starter based on <code>CrowRest</code>, but it didn’t finished yet. Features:</p>
+<ul>
+<li>full-functionally RBAC programme with multi-organization</li>
+<li>less code to write</li>
+<li>auto authorities control based on Roles</li>
+<li>support row-level and column-level authorize</li>
+<li>and more…</li>
+</ul>
+<h2 id="CrowExtJS"><a href="#CrowExtJS" class="headerlink" title="CrowExtJS"></a>CrowExtJS</h2><p>The common frontend works with backend project like based on CrowRest and CrowRBAC, it works well with the general-view what according to the data-struck which backend service auto provided, so you can also write less code for frontend as well. ** not fishined too **</p>
+<h2 id="More…"><a href="#More…" class="headerlink" title="More…"></a>More…</h2><p>I will build this project for a long time, to help others create application more quickly. so maybe the project will have more components in it, like Crow-Vue &#x2F; Crow-Mobile &#x2F; Crow-xxx, and there will be some applications implemented via this collection of scaffolds.</p>
+<p>Wish this could help, and hope everything goes well.</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>FullStack</category>
+        <category>CrowStarter</category>
+      </categories>
+      <tags>
+        <tag>Crow</tag>
+        <tag>ExtJS</tag>
+        <tag>SprintBoot</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Some similar words in English</title>
     <url>/posts/25014/</url>
     <content><![CDATA[<p>As you already known, I’m learning English by myself, and I have some confusion in the progress, so-called “Confusable Words”. So I’m trying to explain their differences and usage scenes to deepen my memory. That’s why this post. </p>
