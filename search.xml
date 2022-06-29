@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>A word spider for English learning</title>
+    <url>/posts/31155/</url>
+    <content><![CDATA[<p>Hi everyone, I programmed a spider for crawling words from some given website such as Spring Framework Guides, Vue Guides etc, the artifacts is all the words in given website and sorted by word frequency, so you can import that to your own vocabulary or English Learning APP, like <a href="https://bbdc.cn/">不背单词</a>.</p>
+<p>if you’re interested in this, follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
+<span id="more"></span>
+
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>Start crawling from a list page, and then get all the sub pages in the list, this is the structure of most framework or software documents.</li>
+<li>Striped most of the invalid characters, punctuations, etc.</li>
+<li>Lemmatization via nltk</li>
+</ul>
+<h2 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h2><p>This spider used this <a href="https://github.com/jhao104/proxy_pool">Proxy pool</a>, <a href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a> for parse the HTML and <a href="https://www.nltk.org/">nltk</a> for handle the content in given websites..</p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>I have already created two spiders for Spring Framework Guides and Vue Guides in this project, and the artifacts is in the <code>words</code> directory, the <code>__all.txt</code> is a merged file for all the artifacts.</p>
+<p>Follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
+<p>I wish this can help on enrich your English vocabulary and practice your pronunciation, especially the programmers like me.</p>
+<p>That’s it, so be well.</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>English Learning</category>
+      </categories>
+      <tags>
+        <tag>English Learning</tag>
+        <tag>Python</tag>
+        <tag>Spider</tag>
+        <tag>nltk</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ExtJS getting started</title>
     <url>/posts/64000/</url>
     <content><![CDATA[<h1 id="ExtJS"><a href="#ExtJS" class="headerlink" title="ExtJS"></a>ExtJS</h1><p>As you can see, I will build the front-end application via <code>ExtJS</code>, so first of all is make ExtJS works on your environment. In this post, we trying use <code>Sencha Cmd</code> to build our front-end project.</p>
