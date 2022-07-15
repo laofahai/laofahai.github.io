@@ -3,19 +3,19 @@
   <entry>
     <title>A word spider for English learning</title>
     <url>/posts/31155/</url>
-    <content><![CDATA[<p>Hi everyone, I programmed a spider for crawling words from some given website such as Spring Framework Guides, Vue Guides etc, the artifacts is all the words in given website and sorted by word frequency, so you can import that to your own vocabulary or English Learning APP, like <a href="https://bbdc.cn/">不背单词</a>.</p>
+    <content><![CDATA[<p>Hi everyone, I programmed a spider for crawling words from some given website such as Spring Framework Guides, Vue Guides, etc, the artifacts are all the words in the given website and sorted by word frequency, so you can import that to your vocabulary or English Learning APP, like <a href="https://bbdc.cn/">不背单词</a>.</p>
 <p>if you’re interested in this, follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
 <span id="more"></span>
 
 <h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
-<li>Start crawling from a list page, and then get all the sub pages in the list, this is the structure of most framework or software documents.</li>
+<li>Start crawling from a listing page, and then get all the sub-pages in the list, this is the structure of most framework or software documents.</li>
 <li>Striped most of the invalid characters, punctuations, etc.</li>
 <li>Lemmatization via nltk</li>
 </ul>
 <h2 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h2><p>This spider used this <a href="https://github.com/jhao104/proxy_pool">Proxy pool</a>, <a href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a> for parse the HTML and <a href="https://www.nltk.org/">nltk</a> for handle the content in given websites..</p>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>I have already created two spiders for Spring Framework Guides and Vue Guides in this project, and the artifacts is in the <code>words</code> directory, the <code>__all.txt</code> is a merged file for all the artifacts.</p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>I have already created two spiders for Spring Framework Guides and Vue Guides in this project, and the artifacts are in the <code>words</code> directory, the <code>__all.txt</code> is a merged file for all the artifacts.</p>
 <p>Follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
-<p>I wish this can help on enrich your English vocabulary and practice your pronunciation, especially the programmers like me.</p>
+<p>I hope this can help enrich your English vocabulary and practice your pronunciation, especially the programmers like me.</p>
 <p>That’s it, so be well.</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
@@ -74,30 +74,30 @@
   <entry>
     <title>The build course of Crow Starter - (1</title>
     <url>/posts/59226/</url>
-    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>Hello everyone, I’m trying to build a collection of scaffolds to help people build their application quickly, it’s based on <code>SpringBoot</code> for backend and <code>ExtJS</code> now for frontend, I’d love to named it <code>Crow Starter</code> because I like Mr.Crow in CubeEscape very much, I hope this post is a good beginning for <code>CrowStarter</code> and maybe it could help the guys who want to use this technology stack to build their own application.</p>
-<p>This project will being hosted on <a href="https://github.com/laofahai/crow-starter">Github</a> and <a href="https://gitee.com/laofahai/crow-starter">Gitee</a> for Chinese developers, and it’s under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL license v3.0</a> because of the ExtJS community edition did.</p>
-<p>Actually this scaffold is not only contains a SprintBoot starter you can simply include it in your <code>pom.xml</code>, so you need follow my documents and make it works.</p>
+    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>Hello everyone, I’m trying to build a collection of scaffolds to help people build their application quickly, it’s based on <code>SpringBoot</code> for the backend and <code>ExtJS</code> now for the frontend, I’d love to name it <code>Crow Starter</code> because I like Mr.Crow in CubeEscape very much, I hope this post is a good beginning for <code>CrowStarter</code> and maybe it could help the guys who want to use this technology stack to build their application.</p>
+<p>This project will be hosted on <a href="https://github.com/laofahai/crow-starter">Github</a> and <a href="https://gitee.com/laofahai/crow-starter">Gitee</a> for Chinese developers, and it’s under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL license v3.0</a> because of the ExtJS community edition did.</p>
+<p>This scaffold not only contains a SprintBoot starter you can simply include it in your <code>pom.xml</code>, so you need to follow my documents and make it works.</p>
 <span id="more"></span>
 
-<h1 id="Scaffolds"><a href="#Scaffolds" class="headerlink" title="Scaffolds"></a>Scaffolds</h1><p>The <code>Crow Starter</code> project will contain many of scaffolds like below:</p>
-<h2 id="CrowRest"><a href="#CrowRest" class="headerlink" title="CrowRest"></a>CrowRest</h2><p><a href="https://github.com/laofahai/crow-rest-spring-boot-starter">crow-rest-spring-boot-starter</a> is a quick-starter based on SpringBoot to handle common CRUD operations via RESTful API, it’s easily integrated into your project especially new one, it’s built a new realization via abstract the common operations in web development. so you can:</p>
+<h1 id="Scaffolds"><a href="#Scaffolds" class="headerlink" title="Scaffolds"></a>Scaffolds</h1><p>The <code>Crow Starter</code> project will contain many scaffolds like the below:</p>
+<h2 id="CrowRest"><a href="#CrowRest" class="headerlink" title="CrowRest"></a>CrowRest</h2><p><a href="https://github.com/laofahai/crow-rest-spring-boot-starter">crow-rest-spring-boot-starter</a> is a quick starter based on SpringBoot to handle common CRUD operations via RESTful API, it’s easily integrated into your project, especially new one, it’s built a new realization via abstract the common operations in web development. so you can:</p>
 <ul>
 <li>Build a full-functionally module with almost no codes need to write</li>
-<li>It’s easily to extend and override the default handlers</li>
-<li>Provide a service for all data struct from defined entities, so you can build the front-end application based on it in the same programming style of Crow-Rest</li>
+<li>It’s easy to extend and override the default handlers</li>
+<li>Provide service for all data structs from defined entities, so you can build the front-end application based on it in the same programming style of Crow-Rest</li>
 <li>and-more…</li>
 </ul>
-<p>And this crow-rest starter is now provide 0.0.1 version for release, follow <a href="https://github.com/laofahai/crow-rest-spring-boot-starter">https://github.com/laofahai/crow-rest-spring-boot-starter</a> to getting started.</p>
-<h2 id="CrowRBAC"><a href="#CrowRBAC" class="headerlink" title="CrowRBAC"></a>CrowRBAC</h2><p><a href="https://github.com/laofahai/crow-rbac-spring-boot-starter">crow-rbac-spring-boot-starter</a> is a RBAC starter based on <code>CrowRest</code>, but it didn’t finished yet. Features:</p>
+<p>And this crow-rest starter is now providing a 0.0.1 version for release, follow <a href="https://github.com/laofahai/crow-rest-spring-boot-starter">https://github.com/laofahai/crow-rest-spring-boot-starter</a> to getting started.</p>
+<h2 id="CrowRBAC"><a href="#CrowRBAC" class="headerlink" title="CrowRBAC"></a>CrowRBAC</h2><p><a href="https://github.com/laofahai/crow-rbac-spring-boot-starter">crow-rbac-spring-boot-starter</a> is an RBAC starter based on <code>CrowRest</code>, but it didn’t finish yet. Features:</p>
 <ul>
-<li>full-functionally RBAC programme with multi-organization</li>
+<li>full-functionally RBAC program with multi-organization</li>
 <li>less code to write</li>
 <li>auto authorities control based on Roles</li>
 <li>support row-level and column-level authorize</li>
 <li>and more…</li>
 </ul>
-<h2 id="CrowExtJS"><a href="#CrowExtJS" class="headerlink" title="CrowExtJS"></a>CrowExtJS</h2><p>The common frontend works with backend project like based on CrowRest and CrowRBAC, it works well with the general-view what according to the data-struck which backend service auto provided, so you can also write less code for frontend as well. ** not fishined too **</p>
-<h2 id="More…"><a href="#More…" class="headerlink" title="More…"></a>More…</h2><p>I will build this project for a long time, to help others create application more quickly. so maybe the project will have more components in it, like Crow-Vue &#x2F; Crow-Mobile &#x2F; Crow-xxx, and there will be some applications implemented via this collection of scaffolds.</p>
+<h2 id="CrowExtJS"><a href="#CrowExtJS" class="headerlink" title="CrowExtJS"></a>CrowExtJS</h2><p>The common frontend works with backend projects like based on CrowRest and CrowRBAC, it works well with the general-view what according to the data-struck which backend service auto provided, so you can also write less code for frontend as well. ** not fishing too **</p>
+<h2 id="More…"><a href="#More…" class="headerlink" title="More…"></a>More…</h2><p>I will build this project for a long time, to help others create applications more quickly. so maybe the project will have more components in it, like Crow-Vue &#x2F; Crow-Mobile &#x2F; Crow-xxx, and there will be some applications implemented via this collection of scaffolds.</p>
 <p>Wish this could help, and hope everything goes well.</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
@@ -113,11 +113,11 @@
   <entry>
     <title>Some similar words in English</title>
     <url>/posts/25014/</url>
-    <content><![CDATA[<p>As you already known, I’m learning English by myself, and I have some confusion in the progress, so-called “Confusable Words”. So I’m trying to explain their differences and usage scenes to deepen my memory. That’s why this post. </p>
-<h1 id="Maybe-Perhaps-Possible-Probable-etc"><a href="#Maybe-Perhaps-Possible-Probable-etc" class="headerlink" title="Maybe, Perhaps, Possible, Probable, etc."></a>Maybe, Perhaps, Possible, Probable, etc.</h1><p>There’s many of words can explain 可能 in English, like those in the paragraph title. As I understand them, the rank of the possibility &#x2F; likelihood of things happening maybe like this: <code>probable &gt; possible &gt;= maybe == perhaps</code>.</p>
+    <content><![CDATA[<p>As you already know, I’m learning English by myself, and I have some confusion about the progress, so-called “Confusable Words”. So I’m trying to explain their differences and usage scenes to deepen my memory. That’s why this post. </p>
+<h1 id="Maybe-Perhaps-Possible-Probable-etc"><a href="#Maybe-Perhaps-Possible-Probable-etc" class="headerlink" title="Maybe, Perhaps, Possible, Probable, etc."></a>Maybe, Perhaps, Possible, Probable, etc.</h1><p>There are many words that can explain 可能 in English, like those in the paragraph title. As I understand them, the rank of the possibility of things happening may be like this: <code>probable &gt; possible &gt;= maybe == perhaps</code>.</p>
 <span id="more"></span>
 
-<blockquote><p>As you can see, there’s another “Confusable Words” here: <code>possibility and likelihood</code>, we’ll talk about it later.</p>
+<blockquote><p>As you can see, there are other “Confusable Words” here: <code>possibility and likelihood</code>, we’ll talk about it later.</p>
 </blockquote>
 
 
@@ -138,19 +138,19 @@
     <title>Why not ExtJS?</title>
     <url>/posts/43324/</url>
     <content><![CDATA[<p><a href="/posts/22718">中文版本在这里</a></p>
-<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>This blog post is a recommendation for ExtJS, it’s the front-end framework I like very much recently. ExtJS is a commercial software developed and maintained by Sencha(BTW: The commercial license is a little expensive), but they also provide a community edition under GPL. Although the community edition usually updated slowly, but you can still use the most of the features.</p>
-<p>But since ExtJS 4.x, looks like the developers in China use it very little, and because of that, there’s not many articles about ExtJS written in Chinese. I guess maybe the commercial license is more expensive, or they don’t have official API documents in Chinese, and maybe it’s not suitable for to-C application. The China internet companies do not pay much attention to B-end customers – because they can’t get huge internet-traffic and profits like they’re doing in to-C business.</p>
+<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>This blog post is a recommendation for ExtJS, it’s the front-end framework I like very much recently. ExtJS is commercial software developed and maintained by Sencha(BTW: The commercial license is a little expensive), but they also provide a community edition under GPL. Although the community edition is usually updated slowly, but you can still use the most of the features.</p>
+<p>But since ExtJS 4.x, looks like the developers in China use it very little, and because of that, there are not many articles about ExtJS written in Chinese. I guess maybe the commercial license is more expensive, or they don’t have official API documents in Chinese, and maybe it’s not suitable for the to-C application. The China internet companies do not pay much attention to B-end customers – because they can’t get huge internet traffic and profits like they’re doing in to-C business.</p>
 <span id="more"></span>
 
-<h1 id="So-why-I’m-using-ExtJS-not-Angular-x2F-React-x2F-Vue"><a href="#So-why-I’m-using-ExtJS-not-Angular-x2F-React-x2F-Vue" class="headerlink" title="So why I’m using ExtJS, not Angular&#x2F;React&#x2F;Vue"></a>So why I’m using ExtJS, not Angular&#x2F;React&#x2F;Vue</h1><h1 id="The-design"><a href="#The-design" class="headerlink" title="The design"></a>The design</h1><p>In first, there are so many UI-Framework based on Angular&#x2F;React&#x2F;Vue because they didn’t provide official design bound in the framework, for example like AntDesign &#x2F; MaterialUI &#x2F; ElementUI &#x2F; IView etc, their design concept is seriously homogenized. But in the To-B applications, I don’t think their design language direction is practical, filled with a lot of white space, huge margins and paddings, and fancy but useless effects, etc.</p>
-<p>BTW, many of front-end frameworks affected by ExtJS.</p>
-<h2 id="The-development"><a href="#The-development" class="headerlink" title="The development"></a>The development</h2><p>In so many front-end frameworks, I think Angular(actually I haven’t built any formal application via Angular) and ExtJS is mostly like back-end language &#x2F; framework on development, especially ExtJS is more friendly for back-end engineers. It’s a better way to organize your code in engineering, this can reduce some learning costs and improve the quality of the project.</p>
-<h2 id="The-documents"><a href="#The-documents" class="headerlink" title="The documents"></a>The documents</h2><p>ExtJS provide a very friendly and detailed API document, all configurations, properties, methods, events are so clearly. The document’s style and content is highly unified because of every component made by themselves.<br><img src="/images/posts/220506-extjs-doc.jpg" alt="ExtJS API Documents"></p>
-<h2 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h2><p>And, we need to talk about other frameworks, I have a big prejudice of <code>Angular</code> because of <code>AngularJS</code>, maybe not so much people remember that framework named <code>AngularJS</code>. Yes, it’s <code>AngularJS</code> not <code>Angular</code>. AngularJS can be regarded as the predecessor of Angular, the cooooolest framework before Vue&#x2F;React. I have built a open-source project named <a href="https://github.com/laofahai/ones">ONES</a> with AngularJS to build it’s front-end, AngularJS show me a new different front-end world! BUT, Google gave it up, that’s one of the reasons why I don’t maintain it anymore, it’s broke my heart!</p>
-<p>Maybe my level not good enough on Vue, it didn’t do very well in one of my medium-sized projects built via Vue + ElementUI. As for React, I don’t like the <code>JSX</code> style maybe the only reason that I never use it.</p>
-<h1 id="Share-a-project-built-via-ExtJS"><a href="#Share-a-project-built-via-ExtJS" class="headerlink" title="Share a project built via ExtJS"></a>Share a project built via ExtJS</h1><p>I developed a typical internal project for my company using ExtJS&#x2F; Electron &#x2F; Vue etc for front-end. It used ExtJS classic toolkit to built desktop application. I usually like built some general-view in the projects like this, for example Form&#x2F;Grid&#x2F;Bill&#x2F;DetailView&#x2F;QueryWindow widgets etc, this can significantly reduce similar codes, they worked very well because of ExtJS’s Class and Mixins mechanism. You don’t need to write so many codes, just define your Entity &#x2F; VO in back-end, the application will provide DataStructure to use for front-end and anywhere, it will use different widgets belongs to different field type, and you can customize them too. I built a code-generator via Python, so you can build a full functional module contains CURD operation and almost write nothing.</p>
-<p>Absolutely, there’s a general controller in back-end to handle the REST requests, just define the properties in Entity &#x2F; DTO &#x2F; VO, not even DTO &#x2F; VO if you don’t need it. The JPA will handle migration of database, CommonRestHandler will handle CRUD&#x2F;import and export&#x2F;check permission etc all of common things.</p>
-<p>I think it’s the best way when you are programming, it’s help to reduce most of the similar codes. A new layer of abstract ha.</p>
+<h1 id="So-why-I’m-using-ExtJS-not-Angular-x2F-React-x2F-Vue"><a href="#So-why-I’m-using-ExtJS-not-Angular-x2F-React-x2F-Vue" class="headerlink" title="So why I’m using ExtJS, not Angular&#x2F;React&#x2F;Vue"></a>So why I’m using ExtJS, not Angular&#x2F;React&#x2F;Vue</h1><h1 id="The-design"><a href="#The-design" class="headerlink" title="The design"></a>The design</h1><p>At first, there are so many UI-Framework based on Angular&#x2F;React&#x2F;Vue because they didn’t provide official design bound in the framework, for example like AntDesign &#x2F; MaterialUI &#x2F; ElementUI &#x2F; IViewm,  etc, their design concept is seriously homogenized. But in the To-B applications, I don’t think their design language direction is practical, filled with a lot of white space, huge margins, paddings, fancy but useless effects, etc.</p>
+<p>BTW, many front-end frameworks are affected by ExtJS.</p>
+<h2 id="The-development"><a href="#The-development" class="headerlink" title="The development"></a>The development</h2><p>In so many front-end frameworks, I think Angular(actually I haven’t built any formal application via Angular) and ExtJS is mostly like back-end language&#x2F;framework on development, especially ExtJS is more friendly for back-end engineers. It’s a better way to organize your code in engineering, this can reduce some learning costs and improve the quality of the project.</p>
+<h2 id="The-documents"><a href="#The-documents" class="headerlink" title="The documents"></a>The documents</h2><p>ExtJS provides a very friendly and detailed API document, all configurations, properties, methods, and events are so clear. The document’s style and content are highly unified because every component is made by Sencha Team themselves.<br><img src="/images/posts/220506-extjs-doc.jpg" alt="ExtJS API Documents"></p>
+<h2 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h2><p>And, we need to talk about other frameworks, I have a big prejudice against <code>Angular</code> because of <code>AngularJS</code>, maybe not so many people remember that framework named <code>AngularJS</code>. Yes, it’s <code>AngularJS</code> not <code>Angular</code>. AngularJS can be regarded as the predecessor of Angular, the coolest framework before Vue&#x2F;React. I have built an open-source project named <a href="https://github.com/laofahai/ones">ONES</a> with AngularJS to build its front-end, AngularJS show me a new different front-end world! BUT, Google gave it up, that’s one of the reasons why I don’t maintain it anymore, it broke my heart!</p>
+<p>Maybe my level is not good enough on Vue, it didn’t do very well in one of my medium-sized projects built via Vue + ElementUI. As for React, I don’t like the <code>JSX</code> style may be the only reason that I never use it.</p>
+<h1 id="Share-a-project-built-via-ExtJS"><a href="#Share-a-project-built-via-ExtJS" class="headerlink" title="Share a project built via ExtJS"></a>Share a project built via ExtJS</h1><p>I developed a typical internal project for my company using ExtJS&#x2F; Electron &#x2F; Vue etc for the front-end. It used ExtJS’s classic toolkit to build desktop applications. I usually like to build some general-view in the projects like this, for example, Form&#x2F;Grid&#x2F;Bill&#x2F;DetailView&#x2F;QueryWindow widgets, etc, this can significantly reduce similar codes, they worked very well because of ExtJS’s Class and Mixins mechanism. You don’t need to write so many codes, just define your Entity &#x2F; VO in the backend, the application will provide DataStructure to use for the frontend and anywhere, it will use different widgets belonging to the different field types, and you can customize them too. I built a code-generator via Python, so you can build a full functional module containing CURD operation and almost write nothing.</p>
+<p>Absolutely, there’s a general controller in the backend to handle the REST requests, just define the properties in Entity &#x2F; DTO &#x2F; VO, not even DTO &#x2F; VO if you don’t need it. The JPA will handle the migration of the database, CommonRestHandler will handle CRUD&#x2F;import and export&#x2F;check permission, etc, all common things.</p>
+<p>I think it’s the best way when you are programming, it helps to reduce most of the similar codes. A new layer of abstract ha.</p>
 <h2 id="Share-some-screenshots"><a href="#Share-some-screenshots" class="headerlink" title="Share some screenshots"></a>Share some screenshots</h2><p><img src="/images/posts/220506-jones.jpg" alt="内部某项目"><br><img src="/images/posts/220506-jones-2.png" alt="内部某项目"></p>
 <h2 id="Share-some-codes"><a href="#Share-some-codes" class="headerlink" title="Share some codes"></a>Share some codes</h2><div class='spoiler collapsed'>
     <div class='spoiler-title'>
@@ -162,16 +162,16 @@
     </div>
 </div>
 
-<h1 id="The-end"><a href="#The-end" class="headerlink" title="The end"></a>The end</h1><p>if you’re programming application for internal use, open-source project, or your company can handle the commercial license costs, and you focus on practicability not fancy, I think ExtJS is a good choice, especially for full-stack web developer, you can try it. and if you have any question, you’re so welcome to talk to me!</p>
+<h1 id="The-end"><a href="#The-end" class="headerlink" title="The end"></a>The end</h1><p>if you’re programming an application for internal use, an open-source project, or your company can handle the commercial license costs, and you focus on practicability not fancy, I think ExtJS is a good choice, especially for a full-stack web developer, you can try it. and if you have any questions, you’re so welcome to talk to me!</p>
 <p>Still that saying:</p>
-<blockquote><p>All the languages, frameworks, design patterns is tools to support your business, so choose the most suitable one.</p>
+<blockquote><p>All the languages, frameworks, and design patterns are tools to support your business, so choose the most suitable one.</p>
 </blockquote>
 
 <h1 id="Related-resources"><a href="#Related-resources" class="headerlink" title="Related resources"></a>Related resources</h1><ul>
-<li>ExtJS is currently upgrade to 7.x version, community version now provides npm package too, it’s more simple now.</li>
+<li>ExtJS is currently upgraded to the 7.x version, the community version now provides npm package too, it’s more simple now.</li>
 <li>if you need the GPL version of ExtJS, please follow this to <a href="https://www.sencha.com/products/extjs/communityedition/">get community edition of ExtJS</a> or <a href="https://github.com/tremez/extjs-gpl">unofficial version from GitHub</a> </li>
 <li>if you’re using ExtJS 6.x-CE, maybe try <a href="https://www.npmjs.com/package/extjs-gpl">npm i extjs-gpl</a></li>
-<li>and here is the <a href="https://docs.sencha.com/extjs/7.0.0-CE/index.html">ExtJS official documents</a>, although you can get an off-line version too.</li>
+<li>and here are the <a href="https://docs.sencha.com/extjs/7.0.0-CE/index.html">ExtJS official documents</a>, although you can get an offline version too.</li>
 </ul>
 <p>That’s it, hope everything goes well!</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -234,29 +234,29 @@
   <entry>
     <title>About me</title>
     <url>//about/me/</url>
-    <content><![CDATA[<h1 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I"></a>Who am I</h1><p>Hi visitor, here’s Ian from China, I’m 34 and married. You could call me 老法海 either - if u know what’s that means, it’s my nickname in Chinese. Am a <code>software engineer</code> works on <code>full-stack web development</code> line, and it’s about 14 years I’m in it since 2008 . :)</p>
+    <content><![CDATA[<h1 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I"></a>Who am I</h1><p>Hi visitor, here’s Ian from China, I’m 34 and married. You could call me 老法海 either - if u know what’s that means, it’s my nickname in Chinese. Am a <code>software engineer</code> who works on the <code>full-stack web development</code> line, and it’s about 14 years I’m in it since 2008. :)</p>
 <span id="more"></span>
 
 
-<h2 id="Skills-what-I-can-do"><a href="#Skills-what-I-can-do" class="headerlink" title="Skills - what I can do."></a>Skills - what I can do.</h2><p>As you already known, I’ve been doing development work for many years, although there are no great achievements, but I have learned some skills on it. I could program with <code>Java</code>, <code>Python</code>, <code>PHP</code>, <code>Javascript</code> and more, and I can use mostly of the most popular framework of them. I usually program some enterprise applications, especially in the <code>logistic industry</code>.<br>Recently, I often like to write programs with the <code>SpringBoot</code> framework of Java, and <code>ExtJS</code> &#x2F; <code>Vue</code> framework for JavaScript.</p>
+<h2 id="Skills-what-I-can-do"><a href="#Skills-what-I-can-do" class="headerlink" title="Skills - what I can do."></a>Skills - what I can do.</h2><p>As you already know, I’ve been doing development work for many years, although there are no great achievements. I have learned some skills from it. I could program with <code>Java</code>, <code>Python</code>, <code>PHP</code>, <code>Javascript</code>, and more, and I can use most of the most popular frameworks of them. I usually program some enterprise applications, especially in the <code>logistic industry</code>.<br>Recently, I have often liked to write programs with the <code>SpringBoot</code> framework of Java, and the <code>ExtJS</code> &#x2F; <code>Vue</code> framework for JavaScript.</p>
 <h2 id="Hobbies-what-do-I-like"><a href="#Hobbies-what-do-I-like" class="headerlink" title="Hobbies - what do I like."></a>Hobbies - what do I like.</h2><p>I’m not a very interesting guy, but I still have some hobbies. Yes! that’s true, I have hobbies too! And I have a list below:</p>
 <ul>
 <li>First of all, if let me choose my favorite, I think it’s programming, I love coding!</li>
-<li>I like foods, especially Spicy-Chinese-foods, like Hot-Pot, Chinese-Barbecue. Everybody must love them!</li>
+<li>I like foods, especially Spicy-Chinese foods, like Hot-Pot, Chinese-Barbecue. Everybody must love them!</li>
 <li>I like music, such as Punk &#x2F; Metal &#x2F; Ballad and more. like GreenDay &#x2F; 痛仰 &#x2F; 扭机 &#x2F; LiZhi…</li>
 <li>I like Room-Escape games, and I’m a fan of RustyLake, I love Cube Escape!</li>
-<li>I like movie and some of series, S.H.I.E.L.D &#x2F; The Avengers &#x2F; Guardians of the Galaxy &#x2F; Game of Throne &#x2F; Shameless and more… BTW, my name in English - Ian, is sounds mostly like my last name in Chinese, and I’m absolutely not a Gallager ha.</li>
+<li>I like movies and some series, such as S.H.I.E.L.D &#x2F; The Avengers &#x2F; Guardians of the Galaxy &#x2F; Game of Throne &#x2F; Shameless and more… BTW, my name in English - Ian, sounds mostly like my last name in Chinese, and I’m absolutely not a Gallager ha.</li>
 </ul>
-<p>So if we’re having the same interests, try to contact me out, we’ll be very chatty!</p>
-<h1 id="Why-this-website"><a href="#Why-this-website" class="headerlink" title="Why this website"></a>Why this website</h1><p>I have also built some of my own blog sites before, but they are all no longer maintained for some reasons. In recent years, as I’m getting older and older, I think I should leave something more in my life. So I’ll share something in my programming and life here.</p>
-<p>And I’m building a new Open-Source project about a quick-starter to build enterprise application via SpringBoot + ExtJS + Vue, if you’re interested on it, maybe we can do it together! </p>
-<h1 id="Why-English"><a href="#Why-English" class="headerlink" title="Why English"></a>Why English</h1><p>As you see, the contents of this website mostly written in English. Yep, I’m learning English now because I’m finding a job that I can work at home. and I think the best way to learn a new language is <code>Using it anywhere</code>!<br>I’m not that fluent on English now, but I’m learning to be better, so I would appreciate if you could correct my English mistakes.</p>
+<p>So if we’re having the same interests, try to contact me, we’ll be very chatty!</p>
+<h1 id="Why-this-website"><a href="#Why-this-website" class="headerlink" title="Why this website"></a>Why this website</h1><p>I have also built some of my blog sites before, but they are no longer maintained for some reasons. In recent years, as I’m getting older and older, I think I should leave something more in my life. So I’ll share something about my programming and life here.</p>
+<p>And I’m building a new Open-Source project about a quick starter to build enterprise applications via SpringBoot + ExtJS + Vue, if you’re interested in it, maybe we can do it together! </p>
+<h1 id="Why-English"><a href="#Why-English" class="headerlink" title="Why English"></a>Why English</h1><p>As you see, the contents of this website are mostly written in English. Yep, I’m learning English now because I’m finding a job that I can work at home. and I think the best way to learn a new language is &#96;Using it anywhere!<br>I’m not that fluent in English now, but I’m learning to be better, so I would appreciate it if you could correct my English mistakes.</p>
 <p>BTW, I’m finding language partners, if u want to learn Chinese, I can provide some help on it. so contact me and let’s have a conversation!</p>
-<h1 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h1><p>I haven’t used Twitter &#x2F; Facebook&#x2F; What’s App in recent years, so if could find me through the following ways:</p>
+<h1 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h1><p>I haven’t used Twitter &#x2F; Facebook&#x2F; What’s App in recent years, so it could find me through the following ways:</p>
 <ul>
 <li>Wechat - my ID is: <code>ian_laofahai</code>, and my QR code is down here.</li>
 <li>Email &#x2F; Skype: <code>335454250@qq.com</code></li>
-<li>If there’s some other APP you’re using and it’s available in China, tell me.</li>
+<li>Tell me if there’s some other APP you’re using and it’s available in China.</li>
 </ul>
 <img src="/images/wechat-qrcode.png" class="" width="200">
 
