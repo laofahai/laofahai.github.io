@@ -7,6 +7,7 @@
 <p>if you’re interested in this, follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
 <span id="more"></span>
 
+<h2 id="Update-20220716"><a href="#Update-20220716" class="headerlink" title="Update 20220716"></a>Update 20220716</h2><p>I added some more words spider here, such as Python Tutorial, PHP Tutorial, Java Tutorial, C++ Tutorial, Golang Tutorial, Flutter, ExtJS, etc. in the meantime the <code>__all.txt</code> updated as well.</p>
 <h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
 <li>Start crawling from a listing page, and then get all the sub-pages in the list, this is the structure of most framework or software documents.</li>
 <li>Striped most of the invalid characters, punctuations, etc.</li>
