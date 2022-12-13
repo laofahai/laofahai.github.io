@@ -40,61 +40,47 @@
       </tags>
   </entry>
   <entry>
-    <title>Some similar words in English</title>
-    <url>/posts/25014/</url>
-    <content><![CDATA[<p>As you already know, I’m learning English by myself, and I have some confusion about the progress, so-called “Confusable Words”. So I’m trying to explain their differences and usage scenes to deepen my memory. That’s why this post. </p>
-<h1 id="Maybe-Perhaps-Possible-Probable-etc"><a href="#Maybe-Perhaps-Possible-Probable-etc" class="headerlink" title="Maybe, Perhaps, Possible, Probable, etc."></a>Maybe, Perhaps, Possible, Probable, etc.</h1><p>There are many words that can explain 可能 in English, like those in the paragraph title. As I understand them, the rank of the possibility of things happening may be like this: <code>probable &gt; possible &gt;= maybe == perhaps</code>.</p>
+    <title>ExtJS getting started</title>
+    <url>/posts/64000/</url>
+    <content><![CDATA[<h1 id="ExtJS"><a href="#ExtJS" class="headerlink" title="ExtJS"></a>ExtJS</h1><p>As you can see, I will build the front-end application via <code>ExtJS</code>, so first of all is make ExtJS works on your environment. In this post, we trying use <code>Sencha Cmd</code> to build our front-end project.</p>
+<p>That is a list for all of you need:</p>
+<ul>
+<li>A computer with any OS</li>
+<li>Java Runtime Environment</li>
+<li>An editor you can code on it, like <a href="https://code.visualstudio.com/">VSCode</a>, Eclipse(<a href="https://www.eclipse.org/">https://www.eclipse.org</a><br>), or <a href="https://www.jetbrains.com/">IntelliJ products</a>, and any editor you like.</li>
+<li>A ExtJS-CE SDK. <a href="http://localhost:4000/posts/43324/#Related-resources">You could follow this</a></li>
+<li><a href="https://www.sencha.com/products/extjs/cmd-download/">Sencha Cmd</a></li>
+</ul>
 <span id="more"></span>
 
-<blockquote><p>As you can see, there are other “Confusable Words” here: <code>possibility and likelihood</code>, we’ll talk about it later.</p>
+<h2 id="Sencha-Cmd"><a href="#Sencha-Cmd" class="headerlink" title="Sencha Cmd"></a>Sencha Cmd</h2><p>First step, you need follow the link above to download and install <code>Sencha Cmd</code> on your computer, and make sure the <code>sencha</code> command has been configured in your environment. Use this command to check if it works:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="ExtJS-SDK"><a href="#ExtJS-SDK" class="headerlink" title="ExtJS SDK"></a>ExtJS SDK</h2><p>Step 2, download the <code>ExtJS SDK</code> via the link above, unzip it and put it in any place you could find it. after that, follow the command below like:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha -sdk /path/to/your/extjs/sdk generate app [-classic/modern] [appName] /path/to/your/app</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<blockquote><ul>
+<li>-classic &#x2F; -modern: ExtJS has two toolkits named <code>classic</code> and <code>modern</code>, the classic one is using for desktop application, and the modern one is for modern mobile app.</li>
+<li><code>/path/to/your/app</code> also can be given like <code>./yourApp</code> in relative path style.</li>
+</ul>
 </blockquote>
 
+<p>Now, your workspace may seems like:</p>
+<blockquote><p>|app<br>|—-desktop<br>|—-shared<br>|build<br>|generatedFiels<br>|packages<br>|resources<br>|app.js<br>|app.json<br>|build.xml<br>|index.html<br>|index.js<br>|…</p>
+</blockquote>
 
-<p>The <code>Probable</code> is more affirmative, like: …</p>
-<p><code>Maybe</code> and <code>Perhaps</code> is more colloquial, but there’s a big difference between them: <code>as soon as</code>. You can use it like <code>as soon as possible / maybe</code> but can’t instead them by <code>perhaps / probable</code>.</p>
-<h1 id="To-be-continued"><a href="#To-be-continued" class="headerlink" title="To be continued."></a>To be continued.</h1><p>That’s too difficult for me, I’ll try it later.</p>
+<h2 id="Start-your-first-ExtJS-application"><a href="#Start-your-first-ExtJS-application" class="headerlink" title="Start your first ExtJS application"></a>Start your first ExtJS application</h2><p>if that command works, you will find the generated sources in <code>./yourApp</code> directory, so come on in and start the application like:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> yourApp</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha app watch</span></span><br></pre></td></tr></table></figure>
+
+<p>after that, open your browser and go to the URL: <code>http://localhost:1841</code>, you’ll see that your first ExtJS application worked!</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>English Learning</category>
+        <category>Front-end</category>
       </categories>
       <tags>
-        <tag>English Learning</tag>
-        <tag>Similar Words</tag>
-        <tag>Confusion Words</tag>
+        <tag>ExtJS</tag>
+        <tag>Front-end</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>About me</title>
-    <url>//about/me/</url>
-    <content><![CDATA[<h1 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I"></a>Who am I</h1><p>Hi visitor, here’s Ian from China, I’m 34. You could call me 老法海 either - if u know what’s that means, it’s my nickname in Chinese. I’m a <code>programmer</code> who works on the <code>full-stack web development</code> line, and it’s about 14 years I in it since 2008. :)</p>
-<span id="more"></span>
-
-
-<h2 id="Skills-what-I-can-do"><a href="#Skills-what-I-can-do" class="headerlink" title="Skills - what I can do."></a>Skills - what I can do.</h2><p>As you already know, I’ve been doing development work for many years, although there are no great achievements. I have learned some skills from it. I could program with <code>Java</code>, <code>Python</code>, <code>PHP</code>, <code>Javascript</code>, and more, and I can use most of the most popular frameworks of them. I usually program some enterprise applications, especially in the <code>logistic industry</code>.<br>Recently, I have often liked to write programs with the <code>SpringBoot</code> framework of Java, and the <code>ExtJS</code> &#x2F; <code>Vue</code> framework for JavaScript.</p>
-<h2 id="Hobbies-what-do-I-like"><a href="#Hobbies-what-do-I-like" class="headerlink" title="Hobbies - what do I like."></a>Hobbies - what do I like.</h2><p>I’m not a very interesting guy, but I still have some hobbies. Yes! that’s true, I have hobbies too! And I have a list below:</p>
-<ul>
-<li>First of all, if let me choose my favorite, I think it’s programming, I love coding!</li>
-<li>I like foods, especially Spicy-Chinese foods, like Hot-Pot, Chinese-Barbecue. Everybody must love them!</li>
-<li>I like music, such as Punk &#x2F; Metal &#x2F; Ballad and more. like GreenDay &#x2F; 痛仰 &#x2F; 扭机 &#x2F; LiZhi…</li>
-<li>I like Room-Escape games, and I’m a fan of RustyLake, I love Cube Escape!</li>
-<li>I like movies and some series, such as S.H.I.E.L.D &#x2F; The Avengers &#x2F; Guardians of the Galaxy &#x2F; Game of Throne &#x2F; Shameless and more… BTW, my name in English - Ian, sounds mostly like my last name in Chinese, and I’m absolutely not a Gallager ha.</li>
-</ul>
-<p>So if we’re having the same interests, try to contact me, we’ll be very chatty!</p>
-<h1 id="Why-this-website"><a href="#Why-this-website" class="headerlink" title="Why this website"></a>Why this website</h1><p>I have also built some of my blog sites before, but they are no longer maintained for some reasons. In recent years, as I’m getting older and older, I think I should leave something more in my life. So I’ll share something about my programming and life here.</p>
-<p>And I’m building a new Open-Source project about a quick starter to build enterprise applications via SpringBoot + ExtJS + Vue, if you’re interested in it, maybe we can do it together! </p>
-<h1 id="Why-English"><a href="#Why-English" class="headerlink" title="Why English"></a>Why English</h1><p>As you see, the contents of this website are mostly written in English. Yep, I’m learning English now because I’m finding a job that I can work at home. and I think the best way to learn a new language is &#96;Using it anywhere!<br>I’m not that fluent in English now, but I’m learning to be better, so I would appreciate it if you could correct my English mistakes.</p>
-<p>BTW, I’m finding language partners, if u want to learn Chinese, I can provide some help on it. so contact me and let’s have a conversation!</p>
-<h1 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h1><p>I haven’t used Twitter &#x2F; Facebook&#x2F; What’s App in recent years, so it could find me through the following ways:</p>
-<ul>
-<li>Wechat - my ID is: <code>ian_laofahai</code>, and my QR code is down here.</li>
-<li>Email &#x2F; Skype: <code>335454250@qq.com</code></li>
-<li>Tell me if there’s some other APP you’re using and it’s available in China.</li>
-</ul>
-<img src="/images/wechat-qrcode.png" class="" width="200">
-
-<p>Okay, It’s too difficult for me to write something in English now.</p>
-<p>that’s all, hope everything goes well with you! </p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
     <title>The build course of Crow Starter - (1</title>
@@ -136,46 +122,27 @@
       </tags>
   </entry>
   <entry>
-    <title>ExtJS getting started</title>
-    <url>/posts/64000/</url>
-    <content><![CDATA[<h1 id="ExtJS"><a href="#ExtJS" class="headerlink" title="ExtJS"></a>ExtJS</h1><p>As you can see, I will build the front-end application via <code>ExtJS</code>, so first of all is make ExtJS works on your environment. In this post, we trying use <code>Sencha Cmd</code> to build our front-end project.</p>
-<p>That is a list for all of you need:</p>
-<ul>
-<li>A computer with any OS</li>
-<li>Java Runtime Environment</li>
-<li>An editor you can code on it, like <a href="https://code.visualstudio.com/">VSCode</a>, Eclipse(<a href="https://www.eclipse.org/">https://www.eclipse.org</a><br>), or <a href="https://www.jetbrains.com/">IntelliJ products</a>, and any editor you like.</li>
-<li>A ExtJS-CE SDK. <a href="http://localhost:4000/posts/43324/#Related-resources">You could follow this</a></li>
-<li><a href="https://www.sencha.com/products/extjs/cmd-download/">Sencha Cmd</a></li>
-</ul>
+    <title>Some similar words in English</title>
+    <url>/posts/25014/</url>
+    <content><![CDATA[<p>As you already know, I’m learning English by myself, and I have some confusion about the progress, so-called “Confusable Words”. So I’m trying to explain their differences and usage scenes to deepen my memory. That’s why this post. </p>
+<h1 id="Maybe-Perhaps-Possible-Probable-etc"><a href="#Maybe-Perhaps-Possible-Probable-etc" class="headerlink" title="Maybe, Perhaps, Possible, Probable, etc."></a>Maybe, Perhaps, Possible, Probable, etc.</h1><p>There are many words that can explain 可能 in English, like those in the paragraph title. As I understand them, the rank of the possibility of things happening may be like this: <code>probable &gt; possible &gt;= maybe == perhaps</code>.</p>
 <span id="more"></span>
 
-<h2 id="Sencha-Cmd"><a href="#Sencha-Cmd" class="headerlink" title="Sencha Cmd"></a>Sencha Cmd</h2><p>First step, you need follow the link above to download and install <code>Sencha Cmd</code> on your computer, and make sure the <code>sencha</code> command has been configured in your environment. Use this command to check if it works:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="ExtJS-SDK"><a href="#ExtJS-SDK" class="headerlink" title="ExtJS SDK"></a>ExtJS SDK</h2><p>Step 2, download the <code>ExtJS SDK</code> via the link above, unzip it and put it in any place you could find it. after that, follow the command below like:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha -sdk /path/to/your/extjs/sdk generate app [-classic/modern] [appName] /path/to/your/app</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<blockquote><ul>
-<li>-classic &#x2F; -modern: ExtJS has two toolkits named <code>classic</code> and <code>modern</code>, the classic one is using for desktop application, and the modern one is for modern mobile app.</li>
-<li><code>/path/to/your/app</code> also can be given like <code>./yourApp</code> in relative path style.</li>
-</ul>
+<blockquote><p>As you can see, there are other “Confusable Words” here: <code>possibility and likelihood</code>, we’ll talk about it later.</p>
 </blockquote>
 
-<p>Now, your workspace may seems like:</p>
-<blockquote><p>|app<br>|—-desktop<br>|—-shared<br>|build<br>|generatedFiels<br>|packages<br>|resources<br>|app.js<br>|app.json<br>|build.xml<br>|index.html<br>|index.js<br>|…</p>
-</blockquote>
 
-<h2 id="Start-your-first-ExtJS-application"><a href="#Start-your-first-ExtJS-application" class="headerlink" title="Start your first ExtJS application"></a>Start your first ExtJS application</h2><p>if that command works, you will find the generated sources in <code>./yourApp</code> directory, so come on in and start the application like:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash"><span class="built_in">cd</span> yourApp</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">sencha app watch</span></span><br></pre></td></tr></table></figure>
-
-<p>after that, open your browser and go to the URL: <code>http://localhost:1841</code>, you’ll see that your first ExtJS application worked!</p>
+<p>The <code>Probable</code> is more affirmative, like: …</p>
+<p><code>Maybe</code> and <code>Perhaps</code> is more colloquial, but there’s a big difference between them: <code>as soon as</code>. You can use it like <code>as soon as possible / maybe</code> but can’t instead them by <code>perhaps / probable</code>.</p>
+<h1 id="To-be-continued"><a href="#To-be-continued" class="headerlink" title="To be continued."></a>To be continued.</h1><p>That’s too difficult for me, I’ll try it later.</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>Front-end</category>
+        <category>English Learning</category>
       </categories>
       <tags>
-        <tag>ExtJS</tag>
-        <tag>Front-end</tag>
+        <tag>English Learning</tag>
+        <tag>Similar Words</tag>
+        <tag>Confusion Words</tag>
       </tags>
   </entry>
   <entry>
@@ -274,5 +241,38 @@
         <tag>ExtJS</tag>
         <tag>Front-end</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>About me</title>
+    <url>//about/me/</url>
+    <content><![CDATA[<h1 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I"></a>Who am I</h1><p>Hi visitor, here’s Ian from China, I’m 34. You could call me 老法海 either - if u know what’s that means, it’s my nickname in Chinese. I’m a <code>programmer</code> who works on the <code>full-stack web development</code> line, and it’s about 14 years I in it since 2008. :)</p>
+<span id="more"></span>
+
+
+<h2 id="Skills-what-I-can-do"><a href="#Skills-what-I-can-do" class="headerlink" title="Skills - what I can do."></a>Skills - what I can do.</h2><p>As you already know, I’ve been doing development work for many years, although there are no great achievements. I have learned some skills from it. I could program with <code>Java</code>, <code>Python</code>, <code>PHP</code>, <code>Javascript</code>, and more, and I can use most of the most popular frameworks of them. I usually program some enterprise applications, especially in the <code>logistic industry</code>.<br>Recently, I have often liked to write programs with the <code>SpringBoot</code> framework of Java, and the <code>ExtJS</code> &#x2F; <code>Vue</code> framework for JavaScript.</p>
+<h2 id="Hobbies-what-do-I-like"><a href="#Hobbies-what-do-I-like" class="headerlink" title="Hobbies - what do I like."></a>Hobbies - what do I like.</h2><p>I’m not a very interesting guy, but I still have some hobbies. Yes! that’s true, I have hobbies too! And I have a list below:</p>
+<ul>
+<li>First of all, if let me choose my favorite, I think it’s programming, I love coding!</li>
+<li>I like foods, especially Spicy-Chinese foods, like Hot-Pot, Chinese-Barbecue. Everybody must love them!</li>
+<li>I like music, such as Punk &#x2F; Metal &#x2F; Ballad and more. like GreenDay &#x2F; 痛仰 &#x2F; 扭机 &#x2F; LiZhi…</li>
+<li>I like Room-Escape games, and I’m a fan of RustyLake, I love Cube Escape!</li>
+<li>I like movies and some series, such as S.H.I.E.L.D &#x2F; The Avengers &#x2F; Guardians of the Galaxy &#x2F; Game of Throne &#x2F; Shameless and more… BTW, my name in English - Ian, sounds mostly like my last name in Chinese, and I’m absolutely not a Gallager ha.</li>
+</ul>
+<p>So if we’re having the same interests, try to contact me, we’ll be very chatty!</p>
+<h1 id="Why-this-website"><a href="#Why-this-website" class="headerlink" title="Why this website"></a>Why this website</h1><p>I have also built some of my blog sites before, but they are no longer maintained for some reasons. In recent years, as I’m getting older and older, I think I should leave something more in my life. So I’ll share something about my programming and life here.</p>
+<p>And I’m building a new Open-Source project about a quick starter to build enterprise applications via SpringBoot + ExtJS + Vue, if you’re interested in it, maybe we can do it together! </p>
+<h1 id="Why-English"><a href="#Why-English" class="headerlink" title="Why English"></a>Why English</h1><p>As you see, the contents of this website are mostly written in English. Yep, I’m learning English now because I’m finding a job that I can work at home. and I think the best way to learn a new language is &#96;Using it anywhere!<br>I’m not that fluent in English now, but I’m learning to be better, so I would appreciate it if you could correct my English mistakes.</p>
+<p>BTW, I’m finding language partners, if u want to learn Chinese, I can provide some help on it. so contact me and let’s have a conversation!</p>
+<h1 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h1><p>I haven’t used Twitter &#x2F; Facebook&#x2F; What’s App in recent years, so it could find me through the following ways:</p>
+<ul>
+<li>Wechat - my ID is: <code>ian_laofahai</code>, and my QR code is down here.</li>
+<li>Email &#x2F; Skype: <code>335454250@qq.com</code></li>
+<li>Tell me if there’s some other APP you’re using and it’s available in China.</li>
+</ul>
+<img src="/images/wechat-qrcode.png" class="" width="200">
+
+<p>Okay, It’s too difficult for me to write something in English now.</p>
+<p>that’s all, hope everything goes well with you! </p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
 </search>
