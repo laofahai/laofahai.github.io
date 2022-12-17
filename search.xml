@@ -1,16 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Sat Dec 17 2022 00:00:00 GMT+0800 (中国标准时间)</title>
-    <url>/posts/64242/</url>
-    <content><![CDATA[<p>We start working from home recently cause the circumstance of COVID-19 not too good, I heard there are many new positive patients here in my city every day, the students has been taking online classes at home for more than 20 days, people starts to afraid to go out and the places where crowded.</p>
-<p>We’re living in a bad time now, and I have no idea how to make every thing be fine, I don’t have that ability, just do my best to keep my family away from the danger.</p>
-<p>I think maybe I can only realize my dream of living alone after my daughters come of age, the place which away from the city, somewhere nearly by the mountains,  and a stream in front of the house, I’ll lie on the sofa by the fireplace and watch some movie or drama, there are beers on the table next to the sofa. </p>
-<p>alright, I think that will take 20 years long, haha.<br>that’s it, bye.</p>
+    <title>A word spider for English learning</title>
+    <url>/posts/31155/</url>
+    <content><![CDATA[<p>Hi everyone, I programmed a spider for crawling words from some given website such as Spring Framework Guides, Vue Guides, etc, the artifacts are all the words in the given website and sorted by word frequency, so you can import that to your vocabulary or English Learning APP, like <a href="https://bbdc.cn/">不背单词</a>.</p>
+<p>if you’re interested in this, follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
+<span id="more"></span>
+
+<h2 id="Update-20220716"><a href="#Update-20220716" class="headerlink" title="Update 20220716"></a>Update 20220716</h2><p>I added some more words spider here, such as Python Tutorial, PHP Tutorial, Java Tutorial, C++ Tutorial, Golang Tutorial, Flutter, ExtJS, etc. in the meantime the <code>__all.txt</code> updated as well.</p>
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
+<li>Start crawling from a listing page, and then get all the sub-pages in the list, this is the structure of most framework or software documents.</li>
+<li>Striped most of the invalid characters, punctuations, etc.</li>
+<li>Lemmatization via nltk</li>
+</ul>
+<h2 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h2><p>This spider used this <a href="https://github.com/jhao104/proxy_pool">Proxy pool</a>, <a href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a> for parse the HTML and <a href="https://www.nltk.org/">nltk</a> for handle the content in given websites..</p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>I have already created two spiders for Spring Framework Guides and Vue Guides in this project, and the artifacts are in the <code>words</code> directory, the <code>__all.txt</code> is a merged file for all the artifacts.</p>
+<p>Follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
+<p>I hope this can help enrich your English vocabulary and practice your pronunciation, especially the programmers like me.</p>
+<p>That’s it, so be well.</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>Daily Life</category>
+        <category>English Learning</category>
       </categories>
+      <tags>
+        <tag>English Learning</tag>
+        <tag>Python</tag>
+        <tag>Spider</tag>
+        <tag>nltk</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Some similar words in English</title>
+    <url>/posts/25014/</url>
+    <content><![CDATA[<p>As you already know, I’m learning English by myself, and I have some confusion about the progress, so-called “Confusable Words”. So I’m trying to explain their differences and usage scenes to deepen my memory. That’s why this post. </p>
+<h1 id="Maybe-Perhaps-Possible-Probable-etc"><a href="#Maybe-Perhaps-Possible-Probable-etc" class="headerlink" title="Maybe, Perhaps, Possible, Probable, etc."></a>Maybe, Perhaps, Possible, Probable, etc.</h1><p>There are many words that can explain 可能 in English, like those in the paragraph title. As I understand them, the rank of the possibility of things happening may be like this: <code>probable &gt; possible &gt;= maybe == perhaps</code>.</p>
+<span id="more"></span>
+
+<blockquote><p>As you can see, there are other “Confusable Words” here: <code>possibility and likelihood</code>, we’ll talk about it later.</p>
+</blockquote>
+
+
+<p>The <code>Probable</code> is more affirmative, like: …</p>
+<p><code>Maybe</code> and <code>Perhaps</code> is more colloquial, but there’s a big difference between them: <code>as soon as</code>. You can use it like <code>as soon as possible / maybe</code> but can’t instead them by <code>perhaps / probable</code>.</p>
+<h1 id="To-be-continued"><a href="#To-be-continued" class="headerlink" title="To be continued."></a>To be continued.</h1><p>That’s too difficult for me, I’ll try it later.</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>English Learning</category>
+      </categories>
+      <tags>
+        <tag>English Learning</tag>
+        <tag>Similar Words</tag>
+        <tag>Confusion Words</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About me</title>
+    <url>//about/me/</url>
+    <content><![CDATA[<h1 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I"></a>Who am I</h1><p>Hi visitor, here’s Ian from China, I’m 34. You could call me 老法海 either - if u know what’s that means, it’s my nickname in Chinese. I’m a <code>programmer</code> who works on the <code>full-stack web development</code> line, and it’s about 14 years I in it since 2008. :)</p>
+<span id="more"></span>
+
+
+<h2 id="Skills-what-I-can-do"><a href="#Skills-what-I-can-do" class="headerlink" title="Skills - what I can do."></a>Skills - what I can do.</h2><p>As you already know, I’ve been doing development work for many years, although there are no great achievements. I have learned some skills from it. I could program with <code>Java</code>, <code>Python</code>, <code>PHP</code>, <code>Javascript</code>, and more, and I can use most of the most popular frameworks of them. I usually program some enterprise applications, especially in the <code>logistic industry</code>.<br>Recently, I have often liked to write programs with the <code>SpringBoot</code> framework of Java, and the <code>ExtJS</code> &#x2F; <code>Vue</code> framework for JavaScript.</p>
+<h2 id="Hobbies-what-do-I-like"><a href="#Hobbies-what-do-I-like" class="headerlink" title="Hobbies - what do I like."></a>Hobbies - what do I like.</h2><p>I’m not a very interesting guy, but I still have some hobbies. Yes! that’s true, I have hobbies too! And I have a list below:</p>
+<ul>
+<li>First of all, if let me choose my favorite, I think it’s programming, I love coding!</li>
+<li>I like foods, especially Spicy-Chinese foods, like Hot-Pot, Chinese-Barbecue. Everybody must love them!</li>
+<li>I like music, such as Punk &#x2F; Metal &#x2F; Ballad and more. like GreenDay &#x2F; 痛仰 &#x2F; 扭机 &#x2F; LiZhi…</li>
+<li>I like Room-Escape games, and I’m a fan of RustyLake, I love Cube Escape!</li>
+<li>I like movies and some series, such as S.H.I.E.L.D &#x2F; The Avengers &#x2F; Guardians of the Galaxy &#x2F; Game of Throne &#x2F; Shameless and more… BTW, my name in English - Ian, sounds mostly like my last name in Chinese, and I’m absolutely not a Gallager ha.</li>
+</ul>
+<p>So if we’re having the same interests, try to contact me, we’ll be very chatty!</p>
+<h1 id="Why-this-website"><a href="#Why-this-website" class="headerlink" title="Why this website"></a>Why this website</h1><p>I have also built some of my blog sites before, but they are no longer maintained for some reasons. In recent years, as I’m getting older and older, I think I should leave something more in my life. So I’ll share something about my programming and life here.</p>
+<p>And I’m building a new Open-Source project about a quick starter to build enterprise applications via SpringBoot + ExtJS + Vue, if you’re interested in it, maybe we can do it together! </p>
+<h1 id="Why-English"><a href="#Why-English" class="headerlink" title="Why English"></a>Why English</h1><p>As you see, the contents of this website are mostly written in English. Yep, I’m learning English now because I’m finding a job that I can work at home. and I think the best way to learn a new language is &#96;Using it anywhere!<br>I’m not that fluent in English now, but I’m learning to be better, so I would appreciate it if you could correct my English mistakes.</p>
+<p>BTW, I’m finding language partners, if u want to learn Chinese, I can provide some help on it. so contact me and let’s have a conversation!</p>
+<h1 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h1><p>I haven’t used Twitter &#x2F; Facebook&#x2F; What’s App in recent years, so it could find me through the following ways:</p>
+<ul>
+<li>Wechat - my ID is: <code>ian_laofahai</code>, and my QR code is down here.</li>
+<li>Email &#x2F; Skype: <code>335454250@qq.com</code></li>
+<li>Tell me if there’s some other APP you’re using and it’s available in China.</li>
+</ul>
+<img src="/images/wechat-qrcode.png" class="" width="200">
+
+<p>Okay, It’s too difficult for me to write something in English now.</p>
+<p>that’s all, hope everything goes well with you! </p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
     <title>2022-12-14 Just another day.</title>
@@ -38,35 +112,6 @@
       </categories>
       <tags>
         <tag>Daily Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>A word spider for English learning</title>
-    <url>/posts/31155/</url>
-    <content><![CDATA[<p>Hi everyone, I programmed a spider for crawling words from some given website such as Spring Framework Guides, Vue Guides, etc, the artifacts are all the words in the given website and sorted by word frequency, so you can import that to your vocabulary or English Learning APP, like <a href="https://bbdc.cn/">不背单词</a>.</p>
-<p>if you’re interested in this, follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
-<span id="more"></span>
-
-<h2 id="Update-20220716"><a href="#Update-20220716" class="headerlink" title="Update 20220716"></a>Update 20220716</h2><p>I added some more words spider here, such as Python Tutorial, PHP Tutorial, Java Tutorial, C++ Tutorial, Golang Tutorial, Flutter, ExtJS, etc. in the meantime the <code>__all.txt</code> updated as well.</p>
-<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
-<li>Start crawling from a listing page, and then get all the sub-pages in the list, this is the structure of most framework or software documents.</li>
-<li>Striped most of the invalid characters, punctuations, etc.</li>
-<li>Lemmatization via nltk</li>
-</ul>
-<h2 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h2><p>This spider used this <a href="https://github.com/jhao104/proxy_pool">Proxy pool</a>, <a href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a> for parse the HTML and <a href="https://www.nltk.org/">nltk</a> for handle the content in given websites..</p>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>I have already created two spiders for Spring Framework Guides and Vue Guides in this project, and the artifacts are in the <code>words</code> directory, the <code>__all.txt</code> is a merged file for all the artifacts.</p>
-<p>Follow this link: <a href="https://github.com/laofahai/wordSpider">wordSpider on Github</a></p>
-<p>I hope this can help enrich your English vocabulary and practice your pronunciation, especially the programmers like me.</p>
-<p>That’s it, so be well.</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>English Learning</category>
-      </categories>
-      <tags>
-        <tag>English Learning</tag>
-        <tag>Python</tag>
-        <tag>Spider</tag>
-        <tag>nltk</tag>
       </tags>
   </entry>
   <entry>
@@ -149,30 +194,6 @@
         <tag>ExtJS</tag>
         <tag>Crow</tag>
         <tag>SprintBoot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Some similar words in English</title>
-    <url>/posts/25014/</url>
-    <content><![CDATA[<p>As you already know, I’m learning English by myself, and I have some confusion about the progress, so-called “Confusable Words”. So I’m trying to explain their differences and usage scenes to deepen my memory. That’s why this post. </p>
-<h1 id="Maybe-Perhaps-Possible-Probable-etc"><a href="#Maybe-Perhaps-Possible-Probable-etc" class="headerlink" title="Maybe, Perhaps, Possible, Probable, etc."></a>Maybe, Perhaps, Possible, Probable, etc.</h1><p>There are many words that can explain 可能 in English, like those in the paragraph title. As I understand them, the rank of the possibility of things happening may be like this: <code>probable &gt; possible &gt;= maybe == perhaps</code>.</p>
-<span id="more"></span>
-
-<blockquote><p>As you can see, there are other “Confusable Words” here: <code>possibility and likelihood</code>, we’ll talk about it later.</p>
-</blockquote>
-
-
-<p>The <code>Probable</code> is more affirmative, like: …</p>
-<p><code>Maybe</code> and <code>Perhaps</code> is more colloquial, but there’s a big difference between them: <code>as soon as</code>. You can use it like <code>as soon as possible / maybe</code> but can’t instead them by <code>perhaps / probable</code>.</p>
-<h1 id="To-be-continued"><a href="#To-be-continued" class="headerlink" title="To be continued."></a>To be continued.</h1><p>That’s too difficult for me, I’ll try it later.</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>English Learning</category>
-      </categories>
-      <tags>
-        <tag>English Learning</tag>
-        <tag>Similar Words</tag>
-        <tag>Confusion Words</tag>
       </tags>
   </entry>
   <entry>
@@ -273,36 +294,15 @@
       </tags>
   </entry>
   <entry>
-    <title>About me</title>
-    <url>//about/me/</url>
-    <content><![CDATA[<h1 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I"></a>Who am I</h1><p>Hi visitor, here’s Ian from China, I’m 34. You could call me 老法海 either - if u know what’s that means, it’s my nickname in Chinese. I’m a <code>programmer</code> who works on the <code>full-stack web development</code> line, and it’s about 14 years I in it since 2008. :)</p>
-<span id="more"></span>
-
-
-<h2 id="Skills-what-I-can-do"><a href="#Skills-what-I-can-do" class="headerlink" title="Skills - what I can do."></a>Skills - what I can do.</h2><p>As you already know, I’ve been doing development work for many years, although there are no great achievements. I have learned some skills from it. I could program with <code>Java</code>, <code>Python</code>, <code>PHP</code>, <code>Javascript</code>, and more, and I can use most of the most popular frameworks of them. I usually program some enterprise applications, especially in the <code>logistic industry</code>.<br>Recently, I have often liked to write programs with the <code>SpringBoot</code> framework of Java, and the <code>ExtJS</code> &#x2F; <code>Vue</code> framework for JavaScript.</p>
-<h2 id="Hobbies-what-do-I-like"><a href="#Hobbies-what-do-I-like" class="headerlink" title="Hobbies - what do I like."></a>Hobbies - what do I like.</h2><p>I’m not a very interesting guy, but I still have some hobbies. Yes! that’s true, I have hobbies too! And I have a list below:</p>
-<ul>
-<li>First of all, if let me choose my favorite, I think it’s programming, I love coding!</li>
-<li>I like foods, especially Spicy-Chinese foods, like Hot-Pot, Chinese-Barbecue. Everybody must love them!</li>
-<li>I like music, such as Punk &#x2F; Metal &#x2F; Ballad and more. like GreenDay &#x2F; 痛仰 &#x2F; 扭机 &#x2F; LiZhi…</li>
-<li>I like Room-Escape games, and I’m a fan of RustyLake, I love Cube Escape!</li>
-<li>I like movies and some series, such as S.H.I.E.L.D &#x2F; The Avengers &#x2F; Guardians of the Galaxy &#x2F; Game of Throne &#x2F; Shameless and more… BTW, my name in English - Ian, sounds mostly like my last name in Chinese, and I’m absolutely not a Gallager ha.</li>
-</ul>
-<p>So if we’re having the same interests, try to contact me, we’ll be very chatty!</p>
-<h1 id="Why-this-website"><a href="#Why-this-website" class="headerlink" title="Why this website"></a>Why this website</h1><p>I have also built some of my blog sites before, but they are no longer maintained for some reasons. In recent years, as I’m getting older and older, I think I should leave something more in my life. So I’ll share something about my programming and life here.</p>
-<p>And I’m building a new Open-Source project about a quick starter to build enterprise applications via SpringBoot + ExtJS + Vue, if you’re interested in it, maybe we can do it together! </p>
-<h1 id="Why-English"><a href="#Why-English" class="headerlink" title="Why English"></a>Why English</h1><p>As you see, the contents of this website are mostly written in English. Yep, I’m learning English now because I’m finding a job that I can work at home. and I think the best way to learn a new language is &#96;Using it anywhere!<br>I’m not that fluent in English now, but I’m learning to be better, so I would appreciate it if you could correct my English mistakes.</p>
-<p>BTW, I’m finding language partners, if u want to learn Chinese, I can provide some help on it. so contact me and let’s have a conversation!</p>
-<h1 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h1><p>I haven’t used Twitter &#x2F; Facebook&#x2F; What’s App in recent years, so it could find me through the following ways:</p>
-<ul>
-<li>Wechat - my ID is: <code>ian_laofahai</code>, and my QR code is down here.</li>
-<li>Email &#x2F; Skype: <code>335454250@qq.com</code></li>
-<li>Tell me if there’s some other APP you’re using and it’s available in China.</li>
-</ul>
-<img src="/images/wechat-qrcode.png" class="" width="200">
-
-<p>Okay, It’s too difficult for me to write something in English now.</p>
-<p>that’s all, hope everything goes well with you! </p>
+    <title>Sat Dec 17 2022 00:00:00 GMT+0800 (中国标准时间)</title>
+    <url>/posts/64242/</url>
+    <content><![CDATA[<p>We start working from home recently cause the circumstance of COVID-19 not too good, I heard there are many new positive patients here in my city every day, the students has been taking online classes at home for more than 20 days, people starts to afraid to go out and the places where crowded.</p>
+<p>We’re living in a bad time now, and I have no idea how to make every thing be fine, I don’t have that ability, just do my best to keep my family away from the danger.</p>
+<p>I think maybe I can only realize my dream of living alone after my daughters come of age, the place which away from the city, somewhere nearly by the mountains,  and a stream in front of the house, I’ll lie on the sofa by the fireplace and watch some movie or drama, there are beers on the table next to the sofa. </p>
+<p>alright, I think that will take 20 years long, haha.<br>that’s it, bye.</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Daily Life</category>
+      </categories>
   </entry>
 </search>
